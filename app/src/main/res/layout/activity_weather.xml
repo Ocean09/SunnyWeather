@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include layout="@layout/now" />
-        <include layout="@layout/forecast" />
-        <include layout="@layout/life_index" />
+        <include android:id="@+id/weather_now_layout" layout="@layout/now" />
+        <include android:id="@+id/weather_forecast_layout" layout="@layout/forecast" />
+        <include android:id="@+id/weather_life_index_layout" layout="@layout/life_index" />
 
     </LinearLayout>
 

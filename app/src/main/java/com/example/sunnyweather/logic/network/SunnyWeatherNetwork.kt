@@ -27,7 +27,7 @@ object SunnyWeatherNetwork {
                     if (body != null) {
                         it.resume(body)
                     } else {
-                        RuntimeException("response body is null")
+                        it.resumeWithException(RuntimeException("response body is null"))
                     }
                 }
 
